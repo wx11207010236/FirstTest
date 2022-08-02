@@ -9,7 +9,8 @@ import java.io.Serializable;
  * Created by 21873 on 2020/4/10.
  */
 
-public class Person implements Parcelable {
+public class Person implements Parcelable    {
+    //这是一段文字
 
     private String name;
     private  int id;
