@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a21873.intentapplication.MainActivity">
+
+  <TextView
+      android:id="@+id/tv_info"
+      android:layout_width="match_parent"
+      android:text="第一个界面"
+      android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_onlick"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到第二个界面"/>
+
+  <Button
+      android:id="@+id/btn_onOpen"
+      android:gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="打开系统相册"/>
+</LinearLayout>
