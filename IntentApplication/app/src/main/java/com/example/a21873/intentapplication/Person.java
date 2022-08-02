@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 
 public class Person implements Parcelable    {
-    //这是一段文字
+    //这是一段文字vfvdvv
 
     private String name;
     private  int id;
